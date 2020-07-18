@@ -13,6 +13,24 @@
     },
     "mono": {
       "tags": []
+    },
+    "frontend/store-e2e": {
+      "tags": []
+    },
+    "frontend-store": {
+      "tags": []
+    },
+    "frontend/store-admin-e2e": {
+      "tags": []
+    },
+    "frontend-store-admin": {
+      "tags": []
+    },
+    "demo-e2e": {
+      "tags": []
+    },
+    "demo": {
+      "tags": []
     }
   }
 }
