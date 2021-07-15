@@ -4,7 +4,7 @@ To run a particular project use this below command-
 >npm start frontend-store -- -o
 
 Install the schematics for each sub-projects
->npm install --save @nrwl/angular @nrwl/express @nrwl/node
+>npm install --save @nrwl/angular @nrwl/express @nrwl/node npm i -g @nrwl/schematics
 
 To Create the project in monorepo-
 >ng g @nrwl/angular:application frontend/store
@@ -17,7 +17,20 @@ To add new library-
 To Add a component-
 ng g @nrwl/angular:component xyz --project ui
 
+Another way to add new application-
+ng g app myapp
 
+Another way to add new library-
+ng g lib mylib
+
+To add new package-
+ng add @angular/material
+
+To run particular application-
+ng serve myapp
+
+To add routing file-
+ng g m app-routing --flat --module=app
 # MonorepoProject
 
 This project was generated using [Nx](https://nx.dev).

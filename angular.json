@@ -17,8 +17,14 @@
             "polyfills": "apps/mono/src/polyfills.ts",
             "tsConfig": "apps/mono/tsconfig.app.json",
             "aot": false,
-            "assets": ["apps/mono/src/favicon.ico", "apps/mono/src/assets"],
-            "styles": ["apps/mono/src/styles.css"],
+            "assets": [
+              "apps/mono/src/favicon.ico",
+              "apps/mono/src/assets"
+            ],
+            "styles": [
+              "apps/mono/src/custom-theme.scss",
+              "apps/mono/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -77,7 +83,10 @@
               "apps/mono/tsconfig.app.json",
               "apps/mono/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/mono/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/mono/**"
+            ]
           }
         },
         "test": {
@@ -111,8 +120,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/mono-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/mono-e2e/**"]
+            "tsConfig": [
+              "apps/mono-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/mono-e2e/**"
+            ]
           }
         }
       }
@@ -137,7 +151,9 @@
               "apps/frontend/store/src/favicon.ico",
               "apps/frontend/store/src/assets"
             ],
-            "styles": ["apps/frontend/store/src/styles.css"],
+            "styles": [
+              "apps/frontend/store/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -196,7 +212,10 @@
               "apps/frontend/store/tsconfig.app.json",
               "apps/frontend/store/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/frontend/store/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/frontend/store/**"
+            ]
           }
         },
         "test": {
@@ -230,8 +249,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/frontend/store-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/frontend/store-e2e/**"]
+            "tsConfig": [
+              "apps/frontend/store-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/frontend/store-e2e/**"
+            ]
           }
         }
       }
@@ -256,7 +280,9 @@
               "apps/frontend/store-admin/src/favicon.ico",
               "apps/frontend/store-admin/src/assets"
             ],
-            "styles": ["apps/frontend/store-admin/src/styles.css"],
+            "styles": [
+              "apps/frontend/store-admin/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -315,7 +341,10 @@
               "apps/frontend/store-admin/tsconfig.app.json",
               "apps/frontend/store-admin/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/frontend/store-admin/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/frontend/store-admin/**"
+            ]
           }
         },
         "test": {
@@ -349,7 +378,9 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/frontend/store-admin-e2e/tsconfig.e2e.json"],
+            "tsConfig": [
+              "apps/frontend/store-admin-e2e/tsconfig.e2e.json"
+            ],
             "exclude": [
               "**/node_modules/**",
               "!apps/frontend/store-admin-e2e/**"
@@ -374,8 +405,13 @@
             "polyfills": "apps/demo/src/polyfills.ts",
             "tsConfig": "apps/demo/tsconfig.app.json",
             "aot": false,
-            "assets": ["apps/demo/src/favicon.ico", "apps/demo/src/assets"],
-            "styles": ["apps/demo/src/styles.css"],
+            "assets": [
+              "apps/demo/src/favicon.ico",
+              "apps/demo/src/assets"
+            ],
+            "styles": [
+              "apps/demo/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -434,7 +470,10 @@
               "apps/demo/tsconfig.app.json",
               "apps/demo/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/demo/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/demo/**"
+            ]
           }
         },
         "test": {
@@ -468,11 +507,175 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/demo-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/demo-e2e/**"]
+            "tsConfig": [
+              "apps/demo-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/demo-e2e/**"
+            ]
           }
         }
       }
+    },
+    "myapp": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "apps/myapp",
+      "sourceRoot": "apps/myapp/src",
+      "prefix": "monorepo-project",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/apps/myapp",
+            "index": "apps/myapp/src/index.html",
+            "main": "apps/myapp/src/main.ts",
+            "polyfills": "apps/myapp/src/polyfills.ts",
+            "tsConfig": "apps/myapp/tsconfig.app.json",
+            "aot": false,
+            "assets": [
+              "apps/myapp/src/favicon.ico",
+              "apps/myapp/src/assets"
+            ],
+            "styles": [
+              "apps/myapp/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/myapp/src/environments/environment.ts",
+                  "with": "apps/myapp/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "myapp:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "myapp:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "myapp:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/myapp/tsconfig.app.json",
+              "apps/myapp/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/myapp/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "apps/myapp/jest.config.js",
+            "tsConfig": "apps/myapp/tsconfig.spec.json",
+            "setupFile": "apps/myapp/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "myapp-e2e": {
+      "root": "apps/myapp-e2e",
+      "sourceRoot": "apps/myapp-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/myapp-e2e/cypress.json",
+            "tsConfig": "apps/myapp-e2e/tsconfig.e2e.json",
+            "devServerTarget": "myapp:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "myapp:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/myapp-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/myapp-e2e/**"
+            ]
+          }
+        }
+      }
+    },
+    "mylib": {
+      "projectType": "library",
+      "root": "libs/mylib",
+      "sourceRoot": "libs/mylib/src",
+      "prefix": "monorepo-project",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/mylib/tsconfig.lib.json",
+              "libs/mylib/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/mylib/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/mylib/jest.config.js",
+            "tsConfig": "libs/mylib/tsconfig.spec.json",
+            "setupFile": "libs/mylib/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {}
     }
   },
   "cli": {
@@ -487,5 +690,5 @@
       "unitTestRunner": "jest"
     }
   },
-  "defaultProject": "mono"
+  "defaultProject": "myapp"
 }

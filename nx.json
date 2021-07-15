@@ -31,6 +31,15 @@
     },
     "demo": {
       "tags": []
+    },
+    "myapp-e2e": {
+      "tags": []
+    },
+    "myapp": {
+      "tags": []
+    },
+    "mylib": {
+      "tags": []
     }
   }
 }
