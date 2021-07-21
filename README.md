@@ -1,3 +1,5 @@
+If you want to add/update something create new branch and raise PR against master.
+
 # About
 
 To run a particular project use this below command-
