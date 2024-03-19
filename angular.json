@@ -812,5 +812,8 @@
       },
       "schematics": {}
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
