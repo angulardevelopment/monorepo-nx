@@ -1,6 +1,5 @@
-If you want to add/update something create new branch and raise PR against master.
 
-# About
+# nrwl demo
 
 To run a particular project use this below command-
 >npm start frontend-store -- -o
@@ -33,6 +32,13 @@ ng serve myapp
 
 To add routing file-
 ng g m app-routing --flat --module=app
+
+# Generate UI lib
+ng g @nrwl/angular:lib ui
+
+# Add a component
+ng g @nrwl/angular:component xyz --project ui
+
 # MonorepoProject
 
 This project was generated using [Nx](https://nx.dev).
