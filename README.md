@@ -22,43 +22,32 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 ### About the app
 Implemented Basic Monorepo app using nrwl.
 
-To run a particular project use this below command-
+### useful commands to run any particular project
 >npm start frontend-store -- -o
 
-Install the schematics for each sub-projects
->npm install --save @nrwl/angular @nrwl/express @nrwl/node npm i -g @nrwl/schematics
+### Instructions
+- npm i -g @nrwl/schematics
 
 To Create the project in monorepo-
 >ng g @nrwl/angular:application frontend/store
-
 >ng g @nrwl/express:application store --frontendProject=frontend-store
-
-To add new library-
 >ng g @nrwl/angular:lib ui-components
+>ng g @nrwl/angular:component xyz --project ui
 
-To Add a component-
-ng g @nrwl/angular:component xyz --project ui
+Another way to add new application/library-
+>ng g app myapp
+>ng g lib mylib
 
-Another way to add new application-
-ng g app myapp
-
-Another way to add new library-
-ng g lib mylib
-
-To add new package-
-ng add @angular/material
-
-To run particular application-
-ng serve myapp
-
-To add routing file-
-ng g m app-routing --flat --module=app
-
-# Generate UI lib
-ng g @nrwl/angular:lib ui
-
-# Add a component
-ng g @nrwl/angular:component xyz --project ui
+### Packages used
+-    "@ngrx/component-store": "~14.0.0",
+-    "@ngrx/effects": "~14.0.0",
+-    "@ngrx/entity": "~14.0.0",
+-    "@ngrx/router-store": "~14.0.0",
+-    "@ngrx/store": "~14.0.0",
+-    "@nrwl/angular": "14.6.1",
+-    "@types/three": "^0.146.0",
+-     @nrwl/express 
+-     @nrwl/node 
 
 🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
 
