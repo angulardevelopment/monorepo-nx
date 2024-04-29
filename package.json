@@ -46,6 +46,8 @@
     "@ngrx/store": "~14.0.0",
     "@nrwl/angular": "14.6.1",
     "@types/three": "^0.146.0",
+    "fingerprintjs2": "^2.1.4",
+    "html2canvas": "^1.4.1",
     "rxjs": "~7.5.0",
     "three": "^0.146.0",
     "tslib": "^2.3.0",

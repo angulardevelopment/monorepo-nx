@@ -543,7 +543,6 @@
               "apps/mono/src/assets"
             ],
             "styles": [
-              "apps/mono/src/custom-theme.scss",
               "apps/mono/src/styles.css"
             ],
             "scripts": []

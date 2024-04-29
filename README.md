@@ -20,10 +20,16 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 
 ### About the app
-Implemented Basic Monorepo app using nrwl.
+Implemented Basic Monorepo app using nrwl. 
+- myapp includes demo of taking screenshot of particular area using html2canvas.
+- mono includes demo of file upload.
+- demo includes idea of fingerprintjs2
 
 ### useful commands to run any particular project
 >npm start frontend-store -- -o
+- npm start myapp
+- npm start mono
+- npm start demo
 
 ### Instructions
 - npm i -g @nrwl/schematics
@@ -48,6 +54,8 @@ Another way to add new application/library-
 -    "@types/three": "^0.146.0",
 -     @nrwl/express 
 -     @nrwl/node 
+- html2canvas
+- fingerprintjs2
 
 🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
 
