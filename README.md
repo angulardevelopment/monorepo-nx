@@ -30,6 +30,7 @@ Implemented Basic Monorepo app using nrwl.
 - npm start myapp
 - npm start mono
 - npm start demo
+- npm start login
 
 ### Instructions
 - npm i -g @nrwl/schematics
