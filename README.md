@@ -26,11 +26,13 @@ Implemented Basic Monorepo app using nrwl.
 - demo includes idea of fingerprintjs2
 
 ### useful commands to run any particular project
->npm start frontend-store -- -o
+- npm start frontend-store -- -o
 - npm start myapp
 - npm start mono
 - npm start demo
 - npm start login
+- npm start frontend-store-admin
+- npm run build appname
 
 ### Instructions
 - npm i -g @nrwl/schematics
