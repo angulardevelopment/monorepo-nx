@@ -23,254 +23,254 @@ export class AppComponent {
 }
 
 
-e array that it will return is-
+// e array that it will return is-
 
-[{
+// [{
 
-"key": "userAgent",
+// "key": "userAgent",
 
-"value": "Mozilla/5.0 .."
+// "value": "Mozilla/5.0 .."
 
-},
+// },
 
-{
+// {
 
-"key": "webdriver",
+// "key": "webdriver",
 
-"value": "not available"
+// "value": "not available"
 
-},
+// },
 
-{
+// {
 
-"key": "language",
+// "key": "language",
 
-"value": "en-US"
+// "value": "en-US"
 
-},
+// },
 
-{
+// {
 
-"key": "colorDepth",
+// "key": "colorDepth",
 
-"value": 24
+// "value": 24
 
-},
+// },
 
-{
+// {
 
-"key": "deviceMemory",
+// "key": "deviceMemory",
 
-"value": 8
+// "value": 8
 
-},
+// },
 
-{
+// {
 
-"key": "hardwareConcurrency",
+// "key": "hardwareConcurrency",
 
-"value": 8
+// "value": 8
 
-},
+// },
 
-{
+// {
 
-"key": "screenResolution",
+// "key": "screenResolution",
 
-"value": [720, 1280]
+// "value": [720, 1280]
 
-},
+// },
 
-{
+// {
 
-"key": "availableScreenResolution",
+// "key": "availableScreenResolution",
 
-"value": [680, 1280]
+// "value": [680, 1280]
 
-},
+// },
 
-{
+// {
 
-"key": "timezoneOffset",
+// "key": "timezoneOffset",
 
-"value": -330
+// "value": -330
 
-},
+// },
 
-{
+// {
 
-"key": "timezone",
+// "key": "timezone",
 
-"value": "Asia/Calcutta"
+// "value": "Asia/Calcutta"
 
-},
+// },
 
-{
+// {
 
-"key": "sessionStorage",
+// "key": "sessionStorage",
 
-"value": true
+// "value": true
 
-},
+// },
 
-{
+// {
 
-"key": "localStorage",
+// "key": "localStorage",
 
-"value": true
+// "value": true
 
-},
+// },
 
-{
+// {
 
-"key": "indexedDb",
+// "key": "indexedDb",
 
-"value": true
+// "value": true
 
-},
+// },
 
-{
+// {
 
-"key": "addBehavior",
+// "key": "addBehavior",
 
-"value": false
+// "value": false
 
-},
+// },
 
-{
+// {
 
-"key": "openDatabase",
+// "key": "openDatabase",
 
-"value": true
+// "value": true
 
-},
+// },
 
-{
+// {
 
-"key": "cpuClass",
+// "key": "cpuClass",
 
-"value": "not available"
+// "value": "not available"
 
-},
+// },
 
-{
+// {
 
-"key": "platform",
+// "key": "platform",
 
-"value": "Win32"
+// "value": "Win32"
 
-},
+// },
 
-{
+// {
 
-"key": "plugins",
+// "key": "plugins",
 
-"value": [["Chrome PDF Plugin","Portable Document Format",[["application/google-chrome-pdf",
+// "value": [["Chrome PDF Plugin","Portable Document Format",[["application/google-chrome-pdf",
 
-"pdf"]]],["Chrome PDF Viewer","",[["application/pdf", "pdf"]]],["Native Client","",[
+// "pdf"]]],["Chrome PDF Viewer","",[["application/pdf", "pdf"]]],["Native Client","",[
 
-["application/x-nacl",""],["application/x-pnacl",""]]]]
+// ["application/x-nacl",""],["application/x-pnacl",""]]]]
 
-},
+// },
 
-{
+// {
 
-"key": "canvas",
+// "key": "canvas",
 
-"value": [
+// "value": [
 
-]
+// ]
 
-},
+// },
 
-{
+// {
 
-"key": "webgl",
+// "key": "webgl",
 
-"value": [
+// "value": [
 
-]
+// ]
 
-},
+// },
 
-{
+// {
 
-"key": "webglVendorAndRenderer",
+// "key": "webglVendorAndRenderer",
 
-"value": "Google Inc.~"
+// "value": "Google Inc.~"
 
-},
+// },
 
-{
+// {
 
-"key": "adBlock",
+// "key": "adBlock",
 
-"value": false
+// "value": false
 
-},
+// },
 
-{
+// {
 
-"key": "hasLiedLanguages",
+// "key": "hasLiedLanguages",
 
-"value": false
+// "value": false
 
-},
+// },
 
-{
+// {
 
-"key": "hasLiedResolution",
+// "key": "hasLiedResolution",
 
-"value": false
+// "value": false
 
-},
+// },
 
-{
+// {
 
-"key": "hasLiedOs",
+// "key": "hasLiedOs",
 
-"value": false
+// "value": false
 
-},
+// },
 
-{
+// {
 
-"key": "hasLiedBrowser",
+// "key": "hasLiedBrowser",
 
-"value": false
+// "value": false
 
-},
+// },
 
-{
+// {
 
-"key": "touchSupport",
+// "key": "touchSupport",
 
-"value": [
+// "value": [
 
-0,
+// 0,
 
-false,
+// false,
 
-false
+// false
 
-]
+// ]
 
-},
+// },
 
-{
+// {
 
-"key": "fonts",
+// "key": "fonts",
 
-"value": ["Arial", "Arial Black"]
+// "value": ["Arial", "Arial Black"]
 
-},
+// },
 
-{
+// {
 
-"key": "audio",
+// "key": "audio",
 
-"value": "124.04344884395687"
+// "value": "124.04344884395687"
 
-}
+// }
 
-]
+// ]
