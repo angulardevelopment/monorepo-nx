@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "demo:build"
+            "buildTarget": "demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "demo:build:production"
+              "buildTarget": "demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "demo:build"
+            "buildTarget": "demo:build"
           }
         },
         "lint": {
@@ -189,18 +189,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "frontend-store:build"
+            "buildTarget": "frontend-store:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "frontend-store:build:production"
+              "buildTarget": "frontend-store:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "frontend-store:build"
+            "buildTarget": "frontend-store:build"
           }
         },
         "lint": {
@@ -286,18 +286,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "frontend-store-admin:build"
+            "buildTarget": "frontend-store-admin:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "frontend-store-admin:build:production"
+              "buildTarget": "frontend-store-admin:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "frontend-store-admin:build"
+            "buildTarget": "frontend-store-admin:build"
           }
         },
         "lint": {
@@ -449,12 +449,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "buildTarget": "login:build"
+          },
           "configurations": {
             "production": {
-              "browserTarget": "login:build:production"
+              "buildTarget": "login:build:production"
             },
             "development": {
-              "browserTarget": "login:build:development"
+              "buildTarget": "login:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -462,7 +465,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "login:build"
+            "buildTarget": "login:build"
           }
         },
         "lint": {
@@ -484,8 +487,7 @@
             "passWithNoTests": true
           }
         }
-      },
-      "tags": []
+      }
     },
     "login-e2e": {
       "root": "apps/login-e2e",
@@ -516,11 +518,7 @@
             ]
           }
         }
-      },
-      "tags": [],
-      "implicitDependencies": [
-        "login"
-      ]
+      }
     },
     "mono": {
       "projectType": "application",
@@ -582,18 +580,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mono:build"
+            "buildTarget": "mono:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mono:build:production"
+              "buildTarget": "mono:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mono:build"
+            "buildTarget": "mono:build"
           }
         },
         "lint": {
@@ -711,18 +709,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "myapp:build"
+            "buildTarget": "myapp:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "myapp:build:production"
+              "buildTarget": "myapp:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "myapp:build"
+            "buildTarget": "myapp:build"
           }
         },
         "lint": {

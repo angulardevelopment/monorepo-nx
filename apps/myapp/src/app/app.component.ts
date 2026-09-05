@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import html2canvas from "html2canvas";
 
 @Component({
+  standalone: false,
   selector: 'monorepo-project-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']

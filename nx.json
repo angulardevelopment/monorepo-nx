@@ -40,6 +40,15 @@
     },
     "mylib": {
       "tags": []
+    },
+    "login": {
+      "tags": []
+    },
+    "login-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "login"
+      ]
     }
   },
   "cli": {

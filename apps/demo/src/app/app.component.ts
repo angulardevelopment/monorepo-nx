@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import * as fingerprint2 from 'fingerprintjs2';
 
 @Component({
+  standalone: false,
   selector: 'monorepo-project-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
